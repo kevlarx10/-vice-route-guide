@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "VICE ROUTE \u2014 GTA VI Companion",
+  "short_name": "VICE ROUTE",
+  "description": "Spoiler-free GTA VI PS5 mission, collectibles, purchases and money tracker with new-guide discovery.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c1018",
+  "theme_color": "#101722",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

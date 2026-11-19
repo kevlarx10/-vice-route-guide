@@ -1,0 +1,32 @@
+{
+  "checked": "2026-11-19T16:00:00Z",
+  "items": [
+    {
+      "id": "rockstar-launch",
+      "title": "Grand Theft Auto VI Now Available",
+      "label": "Official release announcement",
+      "source": "Rockstar Games",
+      "kind": "official",
+      "date": "2026-11-19",
+      "url": "https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available"
+    },
+    {
+      "id": "powerpyx-hub",
+      "title": "GTA 6 full walkthrough and all missions",
+      "label": "Walkthrough index",
+      "source": "PowerPyx",
+      "kind": "guide",
+      "date": "2026-11-18",
+      "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+    },
+    {
+      "id": "vgc-hub",
+      "title": "Grand Theft Auto 6 complete walkthrough hub",
+      "label": "Walkthrough library",
+      "source": "VGC",
+      "kind": "guide",
+      "date": "2026-11-18",
+      "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-complete-walkthrough-hub/"
+    }
+  ]
+}
