@@ -1,5 +1,5 @@
-const CACHE='vice-route-static-v2';
-const SHELL=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
+const CACHE='vice-route-static-v3';
+const SHELL=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./pancake-flipper.gif'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)));self.skipWaiting()});
 self.addEventListener('activate',event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))),self.clients.claim()]))});
 self.addEventListener('fetch',event=>{
